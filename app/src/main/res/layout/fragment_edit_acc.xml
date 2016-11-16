@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    tools:context="vn.itplus.sonhv.diary_09e.EditACCFragment">
+
+    <EditText
+        android:id="@+id/edt_userEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_OldPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edt_NewPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edt_confirmNewPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:background="@drawable/round_button"
+        android:id="@+id/btn_EditACC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:text="Edit" />
+
+</LinearLayout>

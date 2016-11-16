@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.itplus.sonhv.diary_09e.DiaryListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="empty"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvContact"
+        android:text="Danh Sach Bai Viet"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#3c9ded"
+        android:layout_margin="5dp"/>
+    <ListView
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContact"
+        android:id="@+id/lv_dsDiary"></ListView>
+
+</RelativeLayout>

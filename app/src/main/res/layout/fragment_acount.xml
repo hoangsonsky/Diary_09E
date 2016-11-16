@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.itplus.sonhv.diary_09e.AcountFragment"
+    android:id="@+id/rlt_acount"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btn_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:background="@drawable/round_button"
+            android:onClick="signIn"/>
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btn_signup"
+            android:background="@drawable/round_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_signin"
+            android:text="Sign Up" />
+    </LinearLayout>
+
+</RelativeLayout>

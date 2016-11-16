@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!--<item android:id="@+id/action_settings"-->
+        <!--android:title="@string/action_settings"-->
+        <!--android:orderInCategory="100" app:showAsAction="ifRoom"-->
+        <!--android:icon="@android:drawable/ic_menu_sort_by_size">-->
+        <!--<menu>-->
+            <!--<item android:id="@+id/editACC"-->
+                <!--android:title="Thay Đổi Thông Tin."-->
+                <!--android:icon="@drawable/pen"-->
+                <!--&gt;</item>-->
+            <!--<item android:id="@+id/settingackground"-->
+                <!--android:title="Đăng Xuất."-->
+                <!--android:icon="@drawable/exit"-->
+                <!--&gt;</item>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    <item  android:id = "@+id/search"
+        android:title = "Search"
+        android:icon = "@drawable/ic_action_name"
+        app:showAsAction = "ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>
+
